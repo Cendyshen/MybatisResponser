@@ -1,0 +1,11 @@
+Mybatis 之 SqlSession
+sqlsession的作用：
+	1. 向sql语句传入参数
+	2.执行sql语句
+	3.获取执行sql语句的结果
+	4.事务的控制
+
+如何获得sqlSession:
+	1.通过配置文件获取数据库连接的相关信息
+	2.通过配置信息构建sqlSessionFactory
+	3.通过sqlSessionFactory打开数据库会话
